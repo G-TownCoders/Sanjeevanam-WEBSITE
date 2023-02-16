@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="/code/css2/style5.css" type="text/css">
+    <link rel="stylesheet" href="/code/css2/donatepage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <div class="heading1">
+     <div class="leftnav">
+       <div class="logo">
+         <img src="/img/logo.png" height="100px" alt="Logo">
+       </div>
+       <div class="logoword">
+         <!-- Sanजीवनम् -->
+         <h2><b>SANJEEVANAM </b></h2>
+       </div>
+     </div>
+     
+     <div class="rightnav"><b>|| रक्तदान – जिंदगी का महादान ||</b></div>
+    </div>
+ 
+   <!--NAVBAR-->
+ 
+     <nav class="navbar navbar-expand-lg sticky-lg-top bg-light">
+       <div class="container-fluid" >
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+           <ul class="navbar-nav">
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="/code/index.html"><b>HOME</b> </a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#mail">CONTACT US</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/code/html/nearby.html">NEARBY</a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 LOGIN
+               </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                 <li><a class="dropdown-item" href="/code/html/user-login.html">USER LOGIN</a></li>
+                 <li><a class="dropdown-item" href="/code/html/san-login.html">SANJEEVANAM LOGIN</a></li>
+                 <li><a class="dropdown-item" href="/code/bb-reg.html">REGISTER BLOOD BANK</a></li>
+               </ul>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+
+
+
+    <div class="main">
+        <div class="donate">
+
+
+            <h2>CHECK AVAILABILTY</h2>
+            <form action="check.php" id="donate"  method="post">
+                    <label>State : </label>
+                    <br><br>
+                    <label for="State"></label>
+                    <select name="State">
+                          <option value="Select">Select State</option>
+                          <option value="Andaman">Andaman & Nicobar</option>
+                          <option value="Andhra">Andhra Pradesh</option>
+                          <option value="Arunachal">Arunachal Pradesh</option>
+                          <option value="Assam">Assam</option>
+                          <option value="Bihar">Bihar</option>
+                          <option value="Chandigarh">Chandigarh</option>
+                          <option value="Chhattisgarh">Chhattisgarh</option>
+                          <option value="Dadra">Dadra & Nagar Haveli</option>
+                          <option value="Daman">Daman & Diu</option>
+                          <option value="Delhi">Delhi</option>
+                          <option value="Goa">Goa</option>
+                          <option value="Gujarat">Gujarat</option>
+                          <option value="Haryana">Haryana</option>
+                          <option value="Himachal">Himachal Pradesh</option>
+                          <option value="Jammu">Jammu & Kashmir</option>
+                          <option value="Jharkhand">Jharkhand</option>
+                          <option value="Karnataka">Karnataka</option>
+                          <option value="Kerala">Kerala</option>
+                          <option value="Lakshadweep">Lakshadweep</option>
+                          <option value="Madhya">Madhya Pradesh</option>
+                          <option value="Maharashtra">Maharashtra</option>
+                          <option value="Manipur">Manipur</option>
+                          <option value="Meghalaya">Meghalaya</option>
+                          <option value="Mizoram">Mizoram</option>
+                          <option value="Nagaland">Nagaland</option>
+                          <option value="Odisha">Odisha</option>
+                          <option value="Pondicherry">Pondicherry</option>
+                          <option value="Punjab">Punjab</option>
+                          <option value="Rajasthan'">Rajasthan</option>
+                          <option value="Sikkim">Sikkim</option>
+                          <option value="Tamil">Tamil Nadu</option>
+                          <option value="Telangana">Telangana</option>
+                          <option value="Tripura">Tripura</option>
+                          <option value="Uttar">Uttar Pradesh</option>
+                          <option value="Uttarakhand">Uttarakhand</option>
+                          <option value="West">West Bengal</option>
+                     </select>
+                      <br><br>
+                     <label>City : </label>
+                     <br><br>
+                     <input type="text" name="city" id="name" placeholder="Enter Your City" required>
+                     <br><br>
+     
+                     <div class="but1">
+                        <input type="submit" value="submit" id="button1" >
+                </div>
+                 
+            
+              
+              </div>
+  
+            </form>
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        
+
+        </div>
+    </div>
+</body>
+
+</html>

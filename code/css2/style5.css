@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9b0e0e;
+}
+
+div.main {
+    width: 350px;
+    margin: 30px auto 20px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+div.donate {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px;
+    color: #fff;
+    margin-bottom: 500px;
+}
+
+#donate{
+    margin-left: 25px;
+    margin-top: 0;
+    padding-bottom: 40px;
+}
+
+label {
+    font-family: sans-serif;
+    font-style:normal;
+    font-size: 18px;
+}
+
+input#name {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#button1{
+    background-color: rgb(109, 199, 76);
+    max-width: 50%;
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 70px;
+    margin-top: 10px;
+    font: bold;
+
+}
+
+#button1:hover {
+    background-color: rgb(50, 39, 168); 
+}
+
+
+.but1{
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
